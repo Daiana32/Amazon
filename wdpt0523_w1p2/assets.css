@@ -1,0 +1,152 @@
+* {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.logoamazon {
+        background-color: transparent;
+        display: flex;
+        justify-content: left;
+        padding: 0.5rem  0 0 1rem ;
+        width: 100%;
+        height: 20%;
+    
+
+    }
+.logoAmazonia {
+        display: flex;
+        width: 98px;
+        height: 35px;
+        background: transparent;
+    }
+
+.header {
+    background-color: hsl(252, 23%, 17%);
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    margin: 1px;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+
+
+}
+
+.menu {
+    display: flex;
+    color: #e7dede;
+    align-items: left;
+    justify-self: left;
+    width:100px;
+    height: 50px;
+    
+
+}
+
+.barra {
+    display: flex;
+    background-color: hwb(24 0% 0%);
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width:500%;
+    margin: 15px;
+}
+
+.bannerverde {
+    display: flex;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    
+
+}
+
+.testosopra {
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+.testo1 { 
+    display: flex;
+    font-size: large;
+    background-color: transparent;
+}
+
+.testo2 {
+    display: flex;
+    font-size:medium;
+    background-color: transparent;
+    
+}
+
+
+body {
+    width: 250px;
+    height: 250px;
+
+}
+
+
+
+.listado {
+    display: flex;
+    margin: 1px;
+}
+.all {
+    display: flex;
+    margin: 15px;
+    padding-left: 1px;
+    justify-content: center;
+    white-space: nowrap;
+    
+}
+
+.foto { 
+    display: flex;
+    background-color: white;
+    width: 1200px;
+    margin: 15px;
+    
+}
+
+.table {
+    background-color: white;
+    display: flex;
+    height: 300px;
+    width: 1200px;
+    margin: 20px 20px 20px 20px;
+
+    
+}
+
+.imagini {
+    display: flex;
+    background-color: white;
+    margin: 0 4px;
+    border-radius: 15px;
+    
+}
+
+.testo {
+    color: black;
+    display: flex;
+    position: relative;
+    display: inline-block;
+    text-align:left;
+}
+.play { 
+    color: rgb(100, 32, 32);
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    }
