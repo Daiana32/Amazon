@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+*{ 
+    font-style: normal;
+    font-family: 'Comic Neue', cursive;
+
+}
+ 
+/*image*/
+.image {
+    position: absolute;
+    display: flex;
+    width: 30rem;
+    height: 35rem;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 40px;
+    z-index: -1;
+
+}
+/*bottone save*/
+
+.save {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 65%;
+    margin-bottom: 75%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 1px;
+    width: 90px;
+    height: 35px;
+    
+}
+.save:hover {
+    background-color: rgb(173, 190, 14);
+    transition: 0.7s;
+    transform: rotate(10deg);
+}
+
+.salvare {
+    display: flex;
+    margin-top: 1px;
+}
+/*salvare fine */
+
+/*box dietro*/
+.box {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 1.5);
+    position: relative;
+    width: 30rem;
+    height: 35rem;
+    padding: 2px;
+    border-radius: 40px;
+
+    
+}
+
+
+/*---box dietro fine*/
+
+
+/*lista bottoni*/
+
+.linkbox1 {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: transparent;
+    text-align: center;
+    width: 100x;
+    height: 100px;
+}
+.upload {
+    display: flex;
+    background-color: red;
+    border-radius: 60px;
+    width:35px;
+    height: 30px;
+   
+}
+
+.westwing {
+    display: flex;
+    background-color: red;
+    text-align: justify;
+    font-size: 30px;
+    border-radius: 45px;
+    width: 180px;
+    height: 50px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 25px;
+
+}
+
+
+#boxupload {
+    display: flex;
+    background-color: red;
+    text-align: center;
+    border-radius: 55px;
+    width: 60px;
+    height: 60px;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    margin-left: 25px;
+    margin-right: 30px;
+       
+}
+
+.button3 {
+
+    margin-top: 45px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+#puntini {
+    font-size: xx-large;
+    text-align: center;
+    background-color: red;
+    border-radius: 60px;
+    width: 60px;
+    height: 50px;
+
+}
+/*fine bottoni*/
