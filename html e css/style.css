@@ -1,0 +1,325 @@
+* {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.logo1 {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    padding: 17 px;
+    margin-top: 20px;
+}
+
+.container-1 {
+    height: 150px;
+    width: 100%;
+    margin-left: 12%;
+    display: flex;
+    padding: 0 10px;
+
+}
+
+.menu-bar {
+    display: flex;
+    height: 150px;
+    width: 70%;
+    margin-top: 20px;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+i.fa-solid {
+    display: flex;
+    height: 10px;
+    width: auto;
+    margin: 15px 15px 15px 15px;
+    font-size: 20px;
+
+}
+
+i.fa-regular {
+    display: flex;
+    height: 10px;
+    width: auto;
+    margin: 15px 15px 15px 15px;
+    font-size: 20px;
+
+}
+
+.fa-solid-fa-user {
+    height: 15px;
+    width: 20px;
+    color: black;
+    border-color: black;
+    border-radius: 45px;
+    border-width: 3px;
+
+}
+
+#resume {
+    border-radius: 30px;
+    border-top-style: thin ridge;
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+}
+
+/** FINISH OF TOP BAR **/
+
+/* BIG BOX CONTENUTO*/
+
+.central.side {
+ margin-left: 25px; 
+    padding: 17px
+}
+
+.box-area {
+    display: flex;
+    width: 70%;
+    height: 700px;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+.title-box-area{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.user2 { 
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.post-box{
+    display: flex;
+}
+
+.diego {
+    display: flex;
+    width: 150px;
+    height: 220px;
+    margin-bottom: 35px;
+}
+
+.boca {
+    width: 150px;
+    height: auto;
+}
+
+/** RIGHT SIDE BAR ***/
+
+
+/** part one **/
+.central-side {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.right-side-bar {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-box {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    justify-content: flex-end;
+}
+
+.loghi {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    width: 40%;
+    height: 50px;
+    justify-content: center;
+}
+
+.medium-logo2 {
+
+    width: 100%;
+    height: 65px;
+    margin-left: 85px;
+    margin-right: 25px;
+}
+
+.twitter-logo {
+
+    width: 100%;
+    height: 65px;
+}
+
+.text {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.twitter {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border-style: ridge;
+    border-color: black;
+    border-width: 1px;
+}
+
+.mini-twitter {
+    width: 20px;
+    height: 20px;
+
+}
+
+.Maybe {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.Spreader-bar {
+    width: 235px;
+    height: auto;
+    border-top: solid rgb(75, 75, 75);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+/**part two**/
+
+.second-side-bar {
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+
+.topics {
+
+    display: flex;
+    padding-left: 15px;
+    height: 50px;
+    width: 100%;
+   flex-wrap: wrap;  
+   margin-bottom: 40px;
+}
+
+.titolo {
+    display: flex;
+    padding: 15px;
+    width: 100%;
+}
+
+.topics button {
+    height: 30px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: grey;
+    margin: 0 10px 10px 0;
+}
+/*box follow ---------------------------------------*/
+
+.third-side-bar {
+    display: flex;
+    width: 20%;
+    height: auto;
+    flex-direction: column;
+
+}
+
+.follow {
+    display: flex;
+    margin-top: 45px;
+    padding: 15px;
+    width: 100%;
+}
+
+.box-persone {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.persone {
+    display: flex;
+    width: 20%;
+    height: 100px;
+    margin-left: 5px;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+
+}
+
+.shakira {
+    display: flex;
+    width: auto;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+.nomi-follow {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    margin-left: 15px;
+
+}
+
+.testo-follow {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 35px;
+    color: grey;
+    font-size: 14px;
+
+}
+
+#follow {
+    height: 30px;
+    width: 65px;
+    border-radius: 30px;
+    border-style: ridge;
+    margin: 25px 25px 10px 15px;
+}
+
+.rihanna {
+    display: flex;
+    width: auto;
+    height: 70px;
+    border-radius: 40%;
+}
+
+.pappo {
+    display: flex;
+    width: 40px;
+    height: 60px;
+    border-radius: 40%;
+}
+
